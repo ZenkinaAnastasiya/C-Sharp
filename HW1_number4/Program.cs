@@ -13,4 +13,4 @@ if (C>max)
 {
     max=C;
 }
-Console.WriteLine("max=" + Convert.ToString(max));
+Console.WriteLine("Max=" + Convert.ToString(max));
