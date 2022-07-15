@@ -14,6 +14,6 @@ else
     }
     else
     {
-       Console.WriteLine(Convert.ToString(B)+"- max") ;
+       Console.WriteLine(Convert.ToString(B)+"- Max") ;
     }
 }
