@@ -38,9 +38,17 @@ int digit = SecondDigitOfNumber (numb);
 Console.WriteLine ($"the second digit of the number {numb} is {digit}");
 
 // проверка Задача 13
-int N = new Random().Next(0,1000000000);
+int N = new Random().Next(0,1000000);
 int A = ThirdDigitOfNumber(N);
+if (A==-1)
+{
+    Console.WriteLine ($"the third digit of the number {N} is missing");
+}
+else
+{
 Console.WriteLine ($"the third digit of the number {N} is {A} ");
+}
+
 
 // проверка Задача 15
 int Day = new Random().Next(0,10);
